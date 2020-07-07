@@ -2,7 +2,7 @@
   "name": "karmatest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/js/scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/kjh311/karmatest/issues"
   },
-  "homepage": "https://github.com/kjh311/karmatest#readme"
+  "homepage": "https://github.com/kjh311/karmatest#readme",
+  "devDependencies": {
+    "karma": "^5.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "dependencies": {
+    
+  }
+  
 }
